@@ -124,8 +124,6 @@ func (r *Mist) gatherStats(s mistStats, acc telegraf.Accumulator) {
 
 		for _, t := range s.mistStats
 			tags := map[string]string{
-					"title":					s.Title,
-					"uuid":						s.UUID,
 					"num_sites"					s.num_sites,
 					"num_devices"				s.num_devices,
                     "num_inventory"				s.num_inventory,
