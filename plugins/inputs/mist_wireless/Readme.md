@@ -5,7 +5,7 @@ The mist_wireless plugin will allow you to collect Org level stattistics from th
 ### Configuration
 
 ```toml
-[[inputs.mist]]
+[[inputs.mist_wireless]]
   ## Specify auth token for your account
   auth_token = "invalidAuthToken"
   ## Specify your OrgID for your account
