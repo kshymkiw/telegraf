@@ -1,4 +1,4 @@
-# Fireboard Input Plugin
+# Mist Wireless Input Plugin
 
 The mist_wireless plugin will allow you to collect Org level stattistics from the Mist Wireless Dashboard.
 
