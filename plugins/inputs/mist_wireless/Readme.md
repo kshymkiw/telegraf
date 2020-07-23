@@ -21,6 +21,10 @@ The mist_wireless plugin will allow you to collect Org level stattistics from th
 Mist does not offer simple login so you will need to create an authToken from the [Mist REST
 API](https://api.mist.com/api/v1/self/apitokens).
 
+#### org_id
+
+You will need your ORG ID from the [Mist Dashboard](https://manage.mist.com/).  On the Menu select Organization->Settings.
+
 #### http_timeout
 
 If you need to increase the HTTP timeout, you can do so here. You can set this
