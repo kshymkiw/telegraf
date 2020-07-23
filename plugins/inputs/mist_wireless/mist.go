@@ -37,9 +37,9 @@ type mistStats struct {
 		UUID						string    'json:"uuid"'
 		num_sites					int       'json:"num_sites"'
 		num_devices					int       'json:"num_devices"'
-		num_inventory				int       'json:"num_inventory"'
-		num_devices_connected		int       'json:"num_devices_connected"'
-		num_devices_disconnected	int       'json:"num_devices_disconnected"'
+		num_inventory					int       'json:"num_inventory"'
+		num_devices_connected				int       'json:"num_devices_connected"'
+		num_devices_disconnected			int       'json:"num_devices_disconnected"'
 		num_clients					int       'json:num_clients"'
 }
 
@@ -124,11 +124,11 @@ func (r *Mist) gatherStats(s mistStats, acc telegraf.Accumulator) {
 
 		for _, t := range s.mistStats
 			tags := map[string]string{
-					"num_sites"					s.num_sites,
-					"num_devices"				s.num_devices,
+		    "num_sites"					s.num_sites,
+		    "num_devices"				s.num_devices,
                     "num_inventory"				s.num_inventory,
-                    "num_devices_connected"		s.num_devices_connected,
-                    "num_devices_disconnected"	s.num_devices_disconnected,
+                    "num_devices_connected"			s.num_devices_connected,
+                    "num_devices_disconnected"			s.num_devices_disconnected,
                     "num_clients"				s.num_clients,
 			}
 			fields := map[string]interface{}{
