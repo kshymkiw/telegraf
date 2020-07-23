@@ -55,3 +55,7 @@ this information.
 ```
 Add Test Here
 ```
+
+#### Special Thanks
+
+Special thanks to OMGKitteh for all his help, as this was my first Go project.  I couldn't have completed this without his help.  Also special thanks to the #go_nuts channel on irc.freenode.net
